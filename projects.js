@@ -34,7 +34,7 @@ router.put('/:id', async (req, res) => {
       res.status(200).json(newResult)
     }
     catch {
-      res.status(500).json({ error: "500 Error" })
+      res.status(500).json({ message: "Added name and description" })
     }
   });
 
